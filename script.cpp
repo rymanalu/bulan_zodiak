@@ -28,7 +28,7 @@ string guess_month(int month)
 }
 
 /**
- * Returns zodiac by given date.
+ * Returns zodiac by given month and date.
  *
  * @param  int  month
  * @param  int  date

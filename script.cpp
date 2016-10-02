@@ -59,9 +59,7 @@ string guess_zodiac(int month, int date)
         {"Sagittarius", "Capricorn"}
     };
 
-    int separator = zodiac_date_separator[month];
-
-    return date > separator ? zodiacs[month][1] : zodiacs[month][0];
+    return date > zodiac_date_separator[month] ? zodiacs[month][1] : zodiacs[month][0];
 }
 
 /**
